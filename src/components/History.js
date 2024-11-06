@@ -2,7 +2,7 @@ import { useExpense } from "../context/ExpenseContext";
 import HistoryItem from "./HistoryItem";
 
 export default function History() {
-  const { historyItem, setHistoryItem } = useExpense();
+  const { historyItem } = useExpense();
   //console.log(HistoryItem);
   return (
     <div className="mt-7">

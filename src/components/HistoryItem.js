@@ -1,8 +1,8 @@
-import { useExpense } from "../context/ExpenseContext";
+//import { useExpense } from "../context/ExpenseContext";
 import { formatCurrency } from "../helpers/helpers";
 
 export default function HistoryItem({ purpose, number }) {
-  const { historyItem, setHistoryItem } = useExpense();
+  //const { historyItem, setHistoryItem } = useExpense();
   return (
     <>
       <li
